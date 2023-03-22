@@ -1,0 +1,11 @@
+yum install git -y
+mkdir file1
+cd file1
+git init
+vi codefile
+git add .
+git commit -m "message"
+git remote add origin <url of repo>
+git push -u origin master
+git log --oneline
+:wq!
